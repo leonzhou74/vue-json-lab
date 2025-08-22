@@ -1,7 +1,13 @@
+<script setup>
+import Form from './components/Form.vue'
+</script>
+
 <template>
-  <JSON />
+  <div class="container" style="padding: 1.5rem">
+    <Form />
+  </div>
 </template>
 
-<script setup>
-import JSON from './components/JSON.vue' // Match filename exactly
-</script>
+<style>
+/* optional */
+</style>
